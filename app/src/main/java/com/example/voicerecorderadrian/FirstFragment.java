@@ -55,8 +55,6 @@ public class FirstFragment extends Fragment {
         recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
         recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
-        File path = new File(Environment.getExternalStorageDirectory().getPath());
-
         return binding.getRoot();
 
 
